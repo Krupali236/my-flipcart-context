@@ -1,5 +1,5 @@
 import cart from "../assets/cart.svg";
-import { useCart } from "../context/CartContext";
+import { useCart } from "../context/cartContext";
 import { useNavigate } from "react-router-dom";
 const Header = () => {
   const { state } = useCart(); // ✅ Access cart state
@@ -27,5 +27,4 @@ const Header = () => {
     </>
   );
 };
-
 export default Header;
