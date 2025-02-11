@@ -22,7 +22,7 @@ const Cart = () => {
                 <button
                   className="my-3 bg-purple-500 text-white px-4 py-2 rounded"                  
                   onClick={() => dispatch({ type: "REMOVE_FROM_CART", payload: item })}
-                >
+                >   
                   Remove To Cart
                 </button>
               </div>
